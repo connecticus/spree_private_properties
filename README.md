@@ -1,7 +1,7 @@
 Spree Private Properties
 ===
 
-[![Build Status](https://travis-ci.org/Willianvdv/spree_private_properties.png?branch=master)](https://travis-ci.org/Willianvdv/spree_private_properties.png)
+[![Build Status](https://travis-ci.org/Willianvdv/spree_private_properties.png?branch=master)](https://travis-ci.org/Willianvdv/spree_private_properties.png)[![Coverage Status](https://coveralls.io/repos/Willianvdv/spree_private_properties/badge.png)](https://coveralls.io/r/Willianvdv/spree_private_properties)
 
 Introduction goes here.
 
