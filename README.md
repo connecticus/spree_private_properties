@@ -1,10 +1,10 @@
-SpreePrivateProperties
-======================
+Spree Private Properties
+===
 
 Introduction goes here.
 
 Installation
-------------
+---
 
 Add spree_private_properties to your Gemfile:
 
@@ -20,7 +20,7 @@ bundle exec rails g spree_private_properties:install
 ```
 
 Testing
--------
+---
 
 Be sure to bundle your dependencies and then create a dummy test app for the specs to run against.
 
@@ -37,4 +37,4 @@ Simply add this require statement to your spec_helper:
 require 'spree_private_properties/factories'
 ```
 
-Copyright (c) 2013 [name of extension creator], released under the New BSD License
+Copyright (c) 2013 Willian van der Velde, released under the New BSD License
