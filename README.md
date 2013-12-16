@@ -1,7 +1,7 @@
 Spree Private Properties
 ===
 
-[![Build Status](https://travis-ci.org/Willianvdv/spree_private_properties.png?branch=master)](https://travis-ci.org/Willianvdv/spree_hstore_filter)
+[![Build Status](https://travis-ci.org/Willianvdv/spree_private_properties.png?branch=master)](https://travis-ci.org/Willianvdv/spree_private_properties.png)
 
 Introduction goes here.
 
