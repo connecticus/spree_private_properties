@@ -4,4 +4,8 @@ source 'https://rubygems.org'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-1-stable'
 gem 'coveralls', require: false
 
+group :test do
+  gem 'spree', github: 'spree/spree', branch: '2-1-stable' 
+end
+
 gemspec

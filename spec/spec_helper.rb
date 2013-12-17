@@ -37,6 +37,7 @@ require 'spree_private_properties/factories'
 
 RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods
+  config.include Devise::TestHelpers, :type => :controller
 
   # == URL Helpers
   #
@@ -80,6 +81,12 @@ RSpec.configure do |config|
   config.after :each do
     DatabaseCleaner.clean
   end
+
+  config.include FactoryGirl::Syntax::Methods
+  config.include Spree::TestingSupport::Preferences
+  config.include Spree::TestingSupport::UrlHelpers
+  config.include Spree::TestingSupport::ControllerRequests
+  
 
   config.fail_fast = ENV['FAIL_FAST'] || false
 end
