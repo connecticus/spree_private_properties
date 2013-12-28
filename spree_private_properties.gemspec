@@ -3,16 +3,13 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_private_properties'
   s.version     = '2.1.3'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Filter out properties you want to keep private'
   s.required_ruby_version = '>= 1.9.3'
 
   s.author    = 'Willian van der Velde'
   s.email     = 'willian@reinaris.nl'
   s.homepage  = 'http://www.reinaris.nl'
 
-  #s.files       = `git ls-files`.split("\n")
-  #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
