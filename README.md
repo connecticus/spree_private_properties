@@ -21,6 +21,11 @@ bundle
 bundle exec rails g spree_private_properties:install
 ```
 
+BIG FAT WARING!
+---
+
+It only filters on the products#show controller. Don't add super private stuff to the properties until you are sure it isn't displayed somewhere else (like the products api)!
+
 Testing
 ---
 
