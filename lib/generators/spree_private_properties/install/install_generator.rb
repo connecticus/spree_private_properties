@@ -4,12 +4,6 @@ module SpreePrivateProperties
 
       class_option :auto_run_migrations, :type => :boolean, :default => false
 
-      def add_javascripts
-      end
-
-      def add_stylesheets
-      end
-
       def add_migrations
         run 'bundle exec rake railties:install:migrations FROM=spree_private_properties'
       end
