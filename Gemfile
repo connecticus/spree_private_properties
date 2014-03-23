@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'spree_controllers_with_callbacks', github: 'Willianvdv/spree_controllers_with_callbacks'
+
 group :test do
   gem 'coveralls', require: false
   gem 'spree', github: 'spree/spree', branch: '2-2-stable'
